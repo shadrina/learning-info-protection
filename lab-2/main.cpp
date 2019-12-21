@@ -76,7 +76,7 @@ namespace task_3 {
     }
 
     void check() {
-        std::cout << "/////////////////TASK 3/////////////////" << std::endl;
+        std::cout << "/////////////////////////////////////////////////////////////////////////////////////////////" << std::endl;
         std::ifstream is("example.txt");
         std::istream_iterator<uint8_t> start(is), end;
         std::vector<uint8_t> bytes(start, end);
